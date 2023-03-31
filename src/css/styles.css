@@ -47,7 +47,8 @@ h1, h3 {
   width: 18.75rem;
   height: 37.5rem;
   margin: auto;
-  position: relative; /* added */
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 #player-select {
