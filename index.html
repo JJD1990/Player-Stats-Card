@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css" type="text/css">
+    <script src="./src/js/index.js" type="application/javascript"></script>
+    <title>Stat-O-Matic</title>
+</head>
+<body>
+  <div id="stats-card" role="region" aria-label="Player Statistics">
+    <select name="player" id="player-select" aria-label="Select a player">
+      <option value="">Select a player...</option>
+    </select>
+    <div id="player-container" aria-live="polite"></div>
+    <div id="info">
+      <div id="badge-border">
+        <div id="badge" role="img" aria-label="Club Badge"></div>
+      </div>
+      <h1 id="player-name" aria-label="Player Name"></h1>
+      <h3 id="player-position" aria-label="Player Position"></h3>
+      <ul id="stats" role="list" aria-label="Player Stats">
+        <li class="name">Appearances<span id="appearances" class="value" aria-label="Appearances Value"></span></li>
+        <li class="name">Goals<span id="goals" class="value" aria-label="Goals Value"></span></li>
+        <li class="name">Assists<span id="assists" class="value" aria-label="Assists Value"></span></li>
+        <li class="name">Goals per match<span id="goals-per-match" class="value" aria-label="Goals per Match Value"></span></li>
+        <li class="name">Passes per minute<span id="passes-per-minute" class="value" aria-label="Passes per Minute Value"></span></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
